@@ -3,7 +3,7 @@ import 'package:flutter/material.dart';
 void main() {
   // runApp(const MyApp());
   runApp(
-      MaterialApp(
+      const MaterialApp(
           home: Center(
               child: Text('Hello world')
           )
