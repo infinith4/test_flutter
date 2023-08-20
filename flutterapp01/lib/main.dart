@@ -5,9 +5,15 @@ void main() {
   runApp(
       MaterialApp(
           home: Scaffold(
+            backgroundColor: Color.fromRGBO(103, 11, 121, 5),
             appBar: AppBar(
               title: Text("I am Rich"),
               backgroundColor: Color.fromRGBO(10, 1, 1, 1.1),
+            ),
+            body: Center(
+                child: Image(
+                    image:NetworkImage("https://www.w3schools.com/css/pineapple.jpg")
+              ),
             ),
           )
       )
