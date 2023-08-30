@@ -15,7 +15,7 @@ class _MainPageState extends State<MainPage> {
     return
       MaterialApp(
           home: Scaffold(
-            backgroundColor: Color.fromRGBO(103, 11, 121, 5),
+            backgroundColor: Colors.white,// Color.fromRGBO(103, 11, 121, 5),
             appBar: AppBar(
               title: Text("I am Rich"),
               backgroundColor: Color.fromRGBO(10, 1, 1, 1.1),
@@ -23,6 +23,9 @@ class _MainPageState extends State<MainPage> {
             body: Center(
               child: Text (
                 'Number od donuts eaten: $nDonuts',
+                style: TextStyle(
+                  fontSize: 20.0
+                ),
               ),
             ),
             floatingActionButton: FloatingActionButton(
