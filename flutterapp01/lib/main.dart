@@ -39,7 +39,7 @@ class _MainPageState extends State<MainPage> {
                   Text(
                     "Hiroshi Ando",
                     style: TextStyle(
-                      fontFamily: 'RubikIso',//'Pacifico',
+                      fontFamily: 'Pacifico',//'RubikIso',
                       fontSize: 40.0,
                       color: Colors.white,
                       fontWeight: FontWeight.bold,
