@@ -15,17 +15,28 @@ class _MainPageState extends State<MainPage> {
     return
       MaterialApp(
           home: Scaffold(
-            backgroundColor: Colors.white,// Color.fromRGBO(103, 11, 121, 5),
+            backgroundColor: Colors.teal,// Color.fromRGBO(103, 11, 121, 5),
             appBar: AppBar(
               title: Text("I am Hiroshi"),
               backgroundColor: Color.fromRGBO(10, 1, 1, 1.1),
             ),
-            body: Center(
-              child: Text (
-                'Number of donuts eaten: $nDonuts',
-                style: TextStyle(
-                  fontSize: 20.0
-                ),
+            // body: Center(
+            //   child: Text (
+            //     'Number of donuts eaten: $nDonuts',
+            //     style: TextStyle(
+            //       fontSize: 20.0
+            //     ),
+            //   ),
+            // ),
+            body: SafeArea(
+              child: Column(
+                children: <Widget>[
+                  CircleAvatar(
+                    radius: 50.0,
+                    backgroundImage: AssetImage("images/2021-10-03_14-40-10_000.jpeg"),
+                    // backgroundColor: Colors.red,
+                  )
+                ],
               ),
             ),
             floatingActionButton: FloatingActionButton(
