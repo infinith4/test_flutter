@@ -17,12 +17,12 @@ class _MainPageState extends State<MainPage> {
           home: Scaffold(
             backgroundColor: Colors.white,// Color.fromRGBO(103, 11, 121, 5),
             appBar: AppBar(
-              title: Text("I am Rich"),
+              title: Text("I am Hiroshi"),
               backgroundColor: Color.fromRGBO(10, 1, 1, 1.1),
             ),
             body: Center(
               child: Text (
-                'Number od donuts eaten: $nDonuts',
+                'Number of donuts eaten: $nDonuts',
                 style: TextStyle(
                   fontSize: 20.0
                 ),
