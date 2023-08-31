@@ -35,7 +35,16 @@ class _MainPageState extends State<MainPage> {
                     radius: 50.0,
                     backgroundImage: AssetImage("images/2021-10-03_14-40-10_000.jpeg"),
                     // backgroundColor: Colors.red,
-                  )
+                  ),
+                  Text(
+                    "Hiroshi Ando",
+                    style: TextStyle(
+                      fontFamily: 'RubikIso',//'Pacifico',
+                      fontSize: 40.0,
+                      color: Colors.white,
+                      fontWeight: FontWeight.bold,
+                    ),
+                  ),
                 ],
               ),
             ),

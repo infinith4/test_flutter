@@ -26,6 +26,16 @@ flutter:
   assets:
      - images/2021-10-03_14-40-10_000.jpeg
 
+#https://fonts.google.com/
+  fonts:
+    - family: Pacifico
+      fonts:
+        - asset: fonts/Pacifico-Regular.ttf
+    - family: RubikIso
+      fonts:
+        - asset: fonts/RubikIso-Regular.ttf
+
+
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware
 
